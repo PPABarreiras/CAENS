@@ -1,0 +1,17 @@
+/* fontes weigth */
+.f-bold-600{
+    font-weight: 600;
+}
+
+.f-bold-400{
+    font-weight: 400;
+}
+
+/* text transform */
+.up{
+    text-transform: uppercase;    
+}
+
+.low{
+    text-transform: lowercase;
+}

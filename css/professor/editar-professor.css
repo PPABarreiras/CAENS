@@ -1,0 +1,30 @@
+.campos-editar-professor {
+    background-color: var(--cor-03);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 2em;
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.container-editar-professor{
+    height: 30%;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 5fr;
+    gap: 0px 0px;
+    position: absolute;
+    top: 12em;
+    left: 25em;
+
+}
+
+.botao-editar-professor{
+    position: absolute;
+    right: 25em;
+    top: 31em;
+
+}

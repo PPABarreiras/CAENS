@@ -1,0 +1,43 @@
+/* variaveis cores */
+:root{
+    /* brancos */
+    --cor-01: #ffffff;
+    --cor-02: #ededed;
+    --cor-03: #e0e1e3;
+
+    /* verdes */
+    --cor-v1: #17331a;
+    --cor-v2: #1d402c;
+    --cor-v3: #019a1e;
+
+    /* vermelhos */
+    --cor-ve1: #d60000;
+}
+
+/* classes cores */
+
+/* brancos */
+.cor-01{
+    color: var(--cor-01);
+}
+
+.cor-02{
+    color: var(--cor-02);
+}
+
+.cor-03{
+    color: var(--cor-03);
+}
+
+/* verdes */
+.cor-v1{
+    color: var(--cor-v1);
+}
+
+.cor-v2{
+    color: var(--cor-v2);
+}
+
+.cor-v3{
+    color: var(--cor-v3);
+}

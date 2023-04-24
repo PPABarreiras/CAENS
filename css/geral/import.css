@@ -1,0 +1,29 @@
+/* gerais */
+@import "../geral/gerais.css";
+@import "../utilitarios/cores.css";
+@import "../utilitarios/header.css";
+@import "../utilitarios/fontes.css";
+@import "../utilitarios/objetos.css";
+@import "../utilitarios/titulo-pagina.css";
+
+/* pagina de login */
+@import "../login/login.css";
+@import "../login/novo-user.css";
+@import "../login/recuperar-senha.css";
+
+/* cadastro professor */
+@import "../professor/cadastro-professor.css";
+@import "../professor/cadastro-prof-form.css";
+
+/* dashboard */
+@import "../professor/dashboard.css";
+
+/* retirada de item */
+@import "../professor/professores-cadastrados.css";
+@import "../item/retirada-de-item.css";
+
+/* estoque de itens */
+@import "../item/estoque.css";
+
+/**/
+@import "../professor/editar-professor.css";

@@ -1,0 +1,76 @@
+.form-retirada-de-item {
+  display: grid;
+  justify-items: end;
+  gap: 1rem;
+}
+
+#retirada-de-item .botao-1 {
+  display: flex;
+  align-items: center;
+  gap: 0.125rem;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.8rem;
+}
+
+#retirada-de-item .botao-1 span {
+  font-size: 1.2rem;
+}
+
+.observacoes-item label {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: var(--cor-v1);
+}
+
+.observacoes-item textarea {
+  margin-top: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: var(--cor-02);
+}
+
+#itens {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border-radius: 15px;
+  
+}
+
+#itens td, #itens th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#itens tr:nth-child(even){background-color: rgb(181, 241, 181)}
+
+#itens tr:hover {background-color: var(--cor-01);}
+
+#itens th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--cor-v1);
+  color: white;
+}
+
+.bg-retirada-item{
+  width: 80%;
+}
+
+.prosseguir-retirada-item{
+  position: absolute;
+  right: 10%;
+}
+
+#nome-do-item{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: var(--cor-v1);
+}

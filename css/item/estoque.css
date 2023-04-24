@@ -1,0 +1,43 @@
+.item-estoque {
+  display: inline;
+  grid-template-columns: 2fr;
+  color: var(--cor-01);
+  text-align: center;
+  border-radius: 0.7em;
+  box-shadow: 5px 3px 5px rgb(73, 73, 73);
+  margin: 0.5em;
+  background-color: var(--cor-v3);
+  padding: 0.5em;
+}
+
+.conteudo-celula-item2 {
+  color: var(--cor-v3);
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-column-gap: 2em;
+}
+
+.conteudo-celula-item {
+  font-weight: inherit;
+  font-size: large;
+}
+
+.item-estoque-nome {
+  background-color: var(--cor-v1);
+}
+
+.item-estoque-bg {
+  background-color: var(--cor-01);
+  padding: 1rem 2rem;
+  margin: 0.5em;
+  border-radius: 1rem;
+  box-shadow: 10px 3px 10px rgb(0 0 0 / 20%);
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.botao-item-estoque {
+  position: relative;
+  left: 22em;
+  top: 0.5em;
+}

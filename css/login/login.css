@@ -1,0 +1,103 @@
+.bg-verde-claro{
+    background-color: var(--cor-v3) ;
+    height: 140px;
+}
+
+.login-container{
+    max-width: 550px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+ 
+.login-container h1{
+    text-align: center;
+    background-color: var(--cor-v3);
+    color: var(--cor-01);
+    border: 3px solid var(--cor-01);
+    border-radius: 35px;
+    width: 75%;
+    padding: 0.4rem;
+    font-size: 1.8rem;
+
+    position: absolute;
+    top: 35px;
+}
+ 
+.form-login{
+    margin-top: 60px;
+    box-sizing: border-box;
+    background-color: var(--cor-01);
+    border-radius: 20px;
+    width: 100%;
+    padding: 4rem 4rem 1rem 4rem;
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.login-container form h2{
+    font-size: 1rem;
+    text-align: center;
+    max-width: 24ch;
+    margin: 0px auto 1rem auto;
+}
+
+.form-login-links{
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.form-login-links a{
+    color: var(--cor-v3);
+    text-decoration:underline;
+}
+
+.titulo-login{
+    text-align: center;
+    position: absolute;
+}
+
+.titulo-login h1{
+    border: 3px solid var(--cor-01);
+    background-color: var(--cor-v3);
+    padding: 0.5rem 4rem;
+
+
+    position: relative;
+    top: 30px;
+    right: 0px;
+}
+
+.form-login>div{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-login label{
+    font-size: 1rem;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="email"]{
+    margin-top: 0.2rem;
+    display: block;
+    background-color: var(--cor-03);
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.6rem 0.6rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}

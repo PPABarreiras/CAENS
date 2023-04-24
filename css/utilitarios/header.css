@@ -1,0 +1,30 @@
+/* navegação - verde escuro */
+
+.caens-bg{
+    background-color: var(--cor-v1);
+}
+
+.caens-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caens-header span,
+.caens-header-2 span{
+    font-size: 2rem;
+    padding: 0.4rem 0rem;    
+}
+
+.caens-nav ul{
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.caens-header-2{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-v1);
+    color: var(--cor-01);
+}
