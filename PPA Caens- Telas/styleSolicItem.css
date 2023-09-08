@@ -1,0 +1,206 @@
+  body {
+      margin: 0;
+      padding: 0px; 
+      background-image: url("imagens/fundo.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    #detalhe {
+      background-image: url("imagens/solict.png"); 
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 112%;
+      background-size: cover;
+      z-index: -1;
+    }
+
+  header {
+    background-color: #343A50; /* Cor de fundo do cabeçalho */
+    padding: 1.3vh; /* Espaçamento interno do cabeçalho */
+    display: flex; /* Exibir elementos em linha */
+    align-items: center; /* Alinhar elementos verticalmente */
+    justify-content: space-between; /* Espaçamento entre os elementos do cabeçalho */
+    border-bottom: 1px solid #A6FBAE; /* Borda fina na parte inferior */
+  }
+  #logo {
+    max-width: 16vh; /* Largura máxima da imagem da logo */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-left: auto; /* Margem à esquerda automática para alinhar à direita */
+    margin-right: 4vw; /* Margem à direita para afastar um pouco do canto */
+  }
+  #titulo {
+      position: absolute;
+      left: 2vw; /* Distância da borda esquerda */
+      width: 60%; /* Largura da caixa */
+      height: 10%; /* Altura da caixa (ajustada para 10%) */
+      background-color: #1A213E; /* Cor de fundo da caixa */
+      border: 0.7vh solid #2E3552; /* Borda da caixa */
+      border-radius: 15vh; /* Bordas arredondadas */
+      transform: translate(0, -50%); /* Ajuste para centralizar verticalmente */
+      text-align: center;
+      z-index: 1; /* Colocar a caixa acima do detalhe */
+  }
+
+  #titulo h1 {
+      font-size: 6vh; /* Tamanho do texto */
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: transparent;
+      -webkit-text-stroke: 0.2vh #A6FBAE; /* Cor e espessura do contorno */
+      background-clip: text; /* Recorta o texto no contorno */
+      letter-spacing: 0.8vh;
+      margin-top: 2vh;
+  }
+  h2{
+    font-size: 3vh;
+    color: #A6FBAE;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .container{
+      display: flex;
+      margin-top: 4%;
+  }
+
+  .container1 {
+      display: block;
+      justify-content: center;
+      width: 55vh; 
+      height: 50vh;  
+      margin: 10vh 14vh;
+      background-color: rgba(0, 1, 16, 0.4);
+      color: #7BDC73;
+      font-size: 4vh;
+      text-align: center;
+      border-radius: 4.5vh;
+      padding: 3vh; /* Espaçamento interno */
+      box-shadow: 5px 5px 10px rgb(0, 1, 16);
+    }
+
+  .container2 {
+      width: 110vh; 
+      height: 50vh;
+      margin: 10vh 12vh;
+      margin-left: 3vh;
+      background-color: rgba(0, 1, 16, 0.4);
+      color: #7BDC73;
+      text-align: center;
+      border-radius: 4.5vh;
+      padding: 3vh; /* Espaçamento interno */
+      box-shadow: 5px 5px 10px #000000;
+    }
+
+    input {
+      width: 40vh;
+      height: 3.5vh; 
+      background-color: rgb(255, 255, 255, 0.2); 
+      color: white;
+      border-radius: 4vh; 
+      font-weight: bold;
+      text-align: left;
+      margin: 2vh;
+      margin-top: 3vh;
+      padding: 10px 30px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+  
+      select{
+      width: 49vh;
+      height: 6.5vh; 
+      background-color: rgb(255, 255, 255, 0.2); 
+      color: white;
+      border-radius: 10vh; 
+      font-weight: bold;
+      text-align: left;
+      margin-top: 2vh;
+      margin-bottom: 1vh;
+      }
+
+    #botao {
+      background-color: #7BDC73;
+      color: #fff;
+      border: none;
+      padding: 2vh 2vw;
+      border-radius: 11.7vh;
+      margin-top: 2vh;
+      font-size: 3vh;
+      cursor: pointer;
+      text-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 2);
+      transition: background-color 0.3s ease;
+      box-shadow: 0 1.5vh 1vh rgba(0, 0, 0, 0.3);
+      letter-spacing: 0.2vh;
+      }
+  
+      #botao:hover {
+        background-color: #9BE49E;
+      } 
+
+.content{
+    width: 95%;
+    height: 70%;
+    background-color: rgb(170, 170, 170);
+    border-radius: 3vh;
+    padding: 1.3vh; /* Espaçamento interno para o texto */
+    border: none;
+    font-weight: bolder;
+    font-size: 2vh;
+}
+
+#menu {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 10vh;
+  right: 0vh;
+  bottom: 0;
+  width: 40vh;
+  background-color: #343A50;
+  border-radius: 2vh;
+  box-shadow: 0 0.3vh 0.6vh rgba(0, 0, 0, 0.2);
+  padding: 1.5vh;
+  z-index: 2;
+}
+
+#menu.active {
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  font-size: 2.5vh;
+}
+
+#menu-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 11vh;
+  margin-top: 8vh;
+  align-items: center;
+  margin-right: 2vw;
+}
+
+#menu-list a {
+  text-decoration: none;
+  color: #A6FBAE;
+  font-weight: bold;
+}
+
+
+#alterarMenu{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.barra {
+  width: 4vh;
+  height: 0.5vh;
+  background-color: #fff;
+  margin: 0.5vh 0;
+  margin-right: 3vw;
+  border-radius: 0.5vh;
+}
