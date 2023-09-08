@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("imagens/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Roboto', sans-serif;
+}
+
+#detalhe {
+  background-image: url("imagens/cadastro.png"); 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-size: cover;
+  z-index: -1;
+}
+
+#logo {
+    max-width: 20vh; /* Largura máxima da imagem da logo */
+    height: auto; /* Altura automática para manter a proporção */
+    padding-left: 3.3vh;
+    float: left;
+}
+
+header {
+    background-color: transparent; 
+    padding: 3.3vh; /* Espaçamento interno do cabeçalho */
+    display: flex; /* Exibir elementos em linha */
+    align-items: center; /* Alinhar elementos verticalmente */
+    justify-content: flex-end; /* Alinhar os elementos à esquerda */
+    
+}
+
+nav a {
+    justify-items: flex-end;
+    font-size: 2.7vh;
+    margin-left: 5vh; /* Espaçamento entre os links */
+    color: #ffffff; 
+    text-decoration: none; /* Remover sublinhado do texto */
+    padding: 0.3vh 1vh; /* Espaçamento interno dos links */
+}
+
+nav a:hover {
+  color: #A6FBAE; 
+  font-size: 2.9vh;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  top: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 65vh; 
+  height: 70vh;    
+  align-items: center;
+  background-color: rgba(0, 1, 16, 0.4);
+  border-radius: 4vh;
+  padding: 3vh; /* Espaçamento interno */
+  box-shadow: 5px 5px 10px rgb(0, 1, 16);
+}
+
+.title {
+  width: 35vh;
+  height: 5vh;
+  position: absolute;
+  top: -4vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1A213E;
+  border-radius: 10vh; 
+  font-size: 5vh;
+  text-align: center;
+  padding: 1.5vh 1.5vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 0.2vh #A6FBAE; /* Cor e espessura do contorno */
+  background-clip: text; /* Recorta o texto no contorno */
+  letter-spacing: 0.8vh; 
+}
+
+  input {
+    width: 40vh;
+    height: 3vh; 
+    background-color: rgb(255, 255, 255, 0.2); 
+    color: white;
+    border-radius: 10vh; 
+    font-weight: bold;
+    text-align: left;
+    margin: 1.3vh;
+    margin-top: 2.5vh;
+    padding: 10px 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    select{
+    width: 48vh;
+    height: 6vh; 
+    background-color: rgb(255, 255, 255, 0.2); 
+    color: white;
+    border-radius: 10vh; 
+    font-weight: bold;
+    text-align: left;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    }
+
+
+    #botao {
+      background-color: #7BDC73;
+      color: #fff;
+      border: none;
+      margin-top: 2.5vh;
+      padding: 1.5vh 1.5vw;
+      border-radius: 11.7vh;
+      font-size: 3vh;
+      cursor: pointer;
+      text-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 2);
+      transition: background-color 0.3s ease;
+      box-shadow: 0 1.5vh 1vh rgba(0, 0, 0, 0.3);
+      letter-spacing: 0.2vh;
+    }
+
+    #botao:hover {
+      background-color: #9BE49E;
+    }
